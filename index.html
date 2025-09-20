@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catch the Square - Beginner Game</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Catch the Square</h1>
+    <p class="subtitle">A tiny beginner-made game — try to click the square before it disappears!</p>
+  </header>
+  <main>
+    <section class="game-area" id="gameArea">
+      <div id="square" class="square" title="Click me!"></div>
+    </section>
+
+    <aside class="controls">
+      <div class="scoreboard">
+        <div>Score: <span id="score">0</span></div>
+        <div>Misses: <span id="misses">0</span></div>
+        <div>Time left: <span id="time">30</span>s</div>
+      </div>
+      <div class="buttons">
+        <button id="startBtn">Start Game</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+      <p class="hint">Hint: The square moves faster as your score increases.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <small>Made by a beginner. No frameworks — plain HTML/CSS/JS.</small>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
