@@ -9,7 +9,7 @@ How to use:
 1. Open `index.html` in your browser (double-click or use the browser's File > Open).
 2. Click "Start Game". A blue square will appear and move around.
 3. Click the square to score. Clicking elsewhere in the game area counts as a miss.
-4. The game lasts 30 seconds.
+4. The game lasts for 30 seconds.
 
 Notes:
 - Made with plain HTML/CSS/JS to look like a beginner project.
